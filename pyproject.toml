@@ -1,0 +1,17 @@
+
+[tool.poetry]
+name = "automacao-selenium"
+version = "0.1.0"
+description = "Projeto para automatizar tarefas em páginas web com integração de múltiplas fontes de dados"
+authors = ["Seu Nome <seu.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+selenium = "^4.0.0"
+requests = "^2.26.0"
+pyyaml = "^5.4"
+sqlite3 = { version = "*" }
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
